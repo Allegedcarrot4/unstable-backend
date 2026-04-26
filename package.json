@@ -1,0 +1,15 @@
+{
+  "name": "unstable-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs"
+  },
+  "dependencies": {
+    "@mercuryworkshop/wisp-js": "^0.4.1",
+    "@nebula-services/bare-server-node": "^2.0.4",
+    "fastify": "^5.8.5"
+  }
+}
